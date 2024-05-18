@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+    <H1>o conteudo desta pagina esta dedicado as Anotações no codigo html</H1>
+  <nav>
+    <ul><!--underdered list-->
+
+      <li>1</li>
+      <li>oi</li>
+      <ul><li>ola</li></ul>
+    </ul>
+    <ol><!--ordered list-->
+      <li>teste</li>
+      <li>macaco</li>
+      <ul>
+        <li>teste</li>
+      </ul>
+    </ol>
+  </nav>
+  <!-- html nao pode interpretar simbolos como < no meio do texto,para isso usamos referencias de entidades de caracteres html ex:
+  "
+  <p>
+    como montar um codigo
+  "<html>content</html>"
+  </p>
+  "
+  este tipo de conteudo nao é possivel escrevendo desta forma,entao o certo seria-->
+  <p>
+    como escrever um codigo
+    &lt;html&gt; &amp;<!--apenas para exibir o proprio &--> content &lt;/html&gt;
+    <!--&lt;="<" &gt;=">" &amp;="&"-->
+    batata doce muito louca &nbsp;como sabe &nbsp;
+    <!--no bettwen spaces(faz nao ser quebrada a linha ou quebrar com a frase inteira)-->
+   <!--caso seja necessario pode-se usar &quot; para criar aspas-->
+</body>
+<footer>&copy;<!--simbolo de copirygth-->vinicius pascoal</footer>
+</html>
