@@ -13,3 +13,9 @@ background-color: darkcyan;}
   text-decoration-color:white;
   border-color:green;
 }
+.vid{
+  position:relative;
+  width:50%;
+  heigth:50%;
+  margin:auto;
+}
