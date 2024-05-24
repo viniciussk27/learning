@@ -16,6 +16,9 @@ background-color: darkcyan;}
 .vid{
   position:relative;
   width:50%;
-  heigth:50%;
+  heigth:100%;
   margin:auto;
+  font-size:30%;
+  
+  
 }
