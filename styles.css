@@ -4,8 +4,10 @@ background-color: darkcyan;}
 #boby{background-color:black;}
 
 #art{
+  
   text-align:center;
   item-align:center;
-  border:2px green;
-  background:rgba(0,0,0,.07);
+  border:2px static green;
+  background:;
+  text-color:white;
 }
