@@ -7,7 +7,9 @@ background-color: darkcyan;}
   
   text-align:center;
   item-align:center;
-  border:2px static green;
+  border:2px 50px;
   background:;
-  text-color:white;
+  color:white;
+  text-decoration-color:white;
+  border-color:green;
 }
